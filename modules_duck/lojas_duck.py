@@ -432,7 +432,7 @@ def render():
             .stButton > button {
                 width: 100% !important;
                 max-width: 100% !important;
-                margin: 13px 0 0 0 !important;
+                margin: 0 !important;
                 height: 108px !important;
                 padding: 14px 10px !important;
                 background: linear-gradient(145deg,#7f1d1d 0%, #b91c1c 100%) !important;
