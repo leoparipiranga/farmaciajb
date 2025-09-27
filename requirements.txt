@@ -1,0 +1,16 @@
+streamlit
+streamlit-option-menu
+pandas
+numpy
+plotly
+folium
+streamlit-folium
+unidecode
+matplotlib
+seaborn
+shapely
+tqdm
+osmnx
+psycopg2
+openpyxl
+requests

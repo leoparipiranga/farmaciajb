@@ -1,4 +1,9 @@
 base/
-"base/" 
+base/*
 .streamlit/
 .streamlit/secrets.toml
+_exclusao/
+_exclusao/*
+duck_cache/*
+sprintdfarma.git/*
+/data_processing/historico_cache/**

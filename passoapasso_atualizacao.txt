@@ -1,0 +1,15 @@
+PASSO A PASSO PARA ATUALIZAR O APP.PY:
+
+1) Executar o run_daily_update.py 
+    (programar para executar automaticamente a 1h da madrugada)
+2) Abre Terminal CMD como administrador, acessa: 
+    C:\Users\leopa\Documents\Projetos\2E\JB\farmaciajb.git\sprintdfarma 
+    Executa:
+    streamlit run app.py
+3) Certifica-se se a porta que está sendo usada é 8501 ou 8502
+4) Mantendo o Terminal aberto, abre outro também como administrador, acessa: 
+    C:\Program Files (x86)\Cloudflared 
+    Executa:
+    cloudflared tunnel --url http://localhost:8501 (ou 8502) 
+5) Verifica a url temporária gerada pelo cloudflare
+6) Deixa os dois terminais abertos
