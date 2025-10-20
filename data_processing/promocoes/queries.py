@@ -255,4 +255,3 @@ def get_classificacoes_promocao_duck(promocao_ids: list) -> list:
     except Exception as e:
         st.error(f"Erro ao carregar classificações: {e}")
         return []
-
